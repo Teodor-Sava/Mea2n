@@ -1,0 +1,24 @@
+{
+  "name": "mea2n",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "angular2-flash-messages": "^1.0.5",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "morgan": "^1.8.1",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "teodor",
+  "license": "ISC"
+}
