@@ -19,11 +19,11 @@ mongoose.connection.on('error', function (err) {
 const app = express();
 const users = require('./routes/users');
 
-const port = process.env.PORT||8080;
+const port = process.env.PORT||5000;
 //cors middleware
 app.use(cors());
 
-app.use(express.static(path.join(__dirname, 'client')));
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(logger('dev'));
 //body parser middleware
 app.use(bodyParser.json());
